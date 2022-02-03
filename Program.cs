@@ -1,4 +1,6 @@
-﻿bool sair = false;
+﻿using todos.db;
+
+bool sair = false;
 while (!sair)
 {
     string opcao = UI.SelecionaOpcaoEmMenu();
