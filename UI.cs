@@ -21,6 +21,7 @@ public class UI
         Console.Clear();
         ExibeDestaque("-- Tarefas --\n");
         Console.WriteLine("[L]istar todas as Tarefas");
+        Console.WriteLine("Listar Tarefas [P]endentes");
         Console.WriteLine("Listar Tarefa por [I]d");
         Console.WriteLine("Listar Tarefas por [T]ítulo");
         Console.WriteLine("Incluir [N]ova Tarefa");
