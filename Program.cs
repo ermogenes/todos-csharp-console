@@ -135,7 +135,7 @@ void AlterarTituloDaTarefa()
 
     if (String.IsNullOrEmpty(titulo))
     {
-        UI.ExibeErro("Não é deixar uma tarefa sem título.");
+        UI.ExibeErro("Não é permitido deixar uma tarefa sem título.");
         return;
     }
 
